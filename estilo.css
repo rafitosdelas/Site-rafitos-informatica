@@ -2,6 +2,7 @@
 
 
 
+
 *{
     padding: 0%; /* zerando a margem interna*/
     margin: 0%; /* zerando a margem externa*/
@@ -85,11 +86,12 @@ b:hover {
     border-radius: 10px;
 }
 
-
-
 c:hover {
    
     background-color: var(--nav-bg-color);
     border-radius: 1rem;
     border: 1px solid var(--nav-bg-color);
 }
+
+/* @media (max-width: 1200px)  */
+/* crtl+k+c */
