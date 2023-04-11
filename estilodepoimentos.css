@@ -47,3 +47,9 @@ h2 {
     text-align: center;
 }
 
+@media (max-width: 991px) {
+    .container {
+        flex-wrap: wrap;
+   }
+}
+
