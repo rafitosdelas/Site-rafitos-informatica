@@ -1,4 +1,10 @@
 
+*{
+    padding: 0%; /* zerando a margem interna*/
+    margin: 0%; /* zerando a margem externa*/
+    box-sizing: border-box; /* definiçao para ocupar a tela toda*/
+}
+
 .header-content{
     text-align: center;
 }
@@ -8,10 +14,29 @@
     margin: auto;
     padding: 1rem;
     text-align: center;
+ 
 }
 
 @media (max-width: 991px) {
     .container {
+        flex-wrap: wrap;
+   }
+}
+
+
+
+.map {
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .map {
         flex-wrap: wrap;
    }
 }
