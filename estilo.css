@@ -19,6 +19,14 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+@media (max-width: 991px) {
+    .nav {
+        flex-wrap: wrap;
+   }
+   .ul {
+    flex-wrap: wrap;
+}
+}
 
 nav {
     display: flex;
@@ -28,7 +36,7 @@ nav {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     padding: 0 2.4rem;
-    height: 10rem;  
+    height: 9rem;  
 }
 
 ul {
@@ -38,7 +46,7 @@ ul {
 }
 
 .button {
-    padding: 1rem 1.6rem;
+    padding: 0.5rem 0.8rem;
     background-color: #04f080;
     border-radius: 1rem;
 }
