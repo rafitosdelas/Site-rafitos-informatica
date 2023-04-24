@@ -6,7 +6,8 @@
 }
 
 .header-content{
-    text-align: center;
+     text-align: center;
+     
 }
 
 .container {
@@ -14,8 +15,9 @@
     margin: auto;
     padding: 1rem;
     text-align: center;
- 
+   
 }
+
 
 @media (max-width: 991px) {
     .container {
@@ -23,20 +25,63 @@
    }
 }
 
-
-
-.map {
-    width: 70%;
-    margin: auto;
-    padding: 1rem;
+h2{
     text-align: center;
+}
+
+.texoimg {
     display: flex;
+    margin-top: 50px;
+ 
+}
+
+.textoprincipal{
+    text-align: center;
+    max-width: 500px;
+    margin-left: 350px;
+    margin-right: 10px;
+}
+
+.quemsomos{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+.LocalInsta{
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
-@media (max-width: 991px) {
-    .map {
-        flex-wrap: wrap;
-   }
+.Local {
+    margin: auto;
+    margin-left: 50px;
+ }
+
+
+
+
+/* 
+.insta {
+   margin: 5px;
+   
 }
+
+
+/* 
+            body {
+            background-image: url("Background.png");
+            background-repeat: repeat-y;
+            background-position: center center;
+            margin-left: 5px;
+            position: relative;
+            bottom: 5px;s
+            }            */
+
+
